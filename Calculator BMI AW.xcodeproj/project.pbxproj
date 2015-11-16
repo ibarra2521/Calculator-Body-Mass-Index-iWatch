@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4157F6751BFA4E7E00E0A8AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157F6741BFA4E7E00E0A8AB /* AppDelegate.swift */; };
+		4157F6771BFA4E7E00E0A8AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157F6761BFA4E7E00E0A8AB /* ViewController.swift */; };
+		4157F67A1BFA4E7E00E0A8AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4157F6781BFA4E7E00E0A8AB /* Main.storyboard */; };
+		4157F67C1BFA4E7E00E0A8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4157F67B1BFA4E7E00E0A8AB /* Assets.xcassets */; };
+		4157F67F1BFA4E7E00E0A8AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4157F67D1BFA4E7E00E0A8AB /* LaunchScreen.storyboard */; };
+		4157F6841BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4157F6831BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App.app */; };
+		4157F68A1BFA4E7E00E0A8AB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4157F6881BFA4E7E00E0A8AB /* Interface.storyboard */; };
+		4157F68C1BFA4E7E00E0A8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4157F68B1BFA4E7E00E0A8AB /* Assets.xcassets */; };
+		4157F6931BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4157F6921BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4157F6981BFA4E7E00E0A8AB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157F6971BFA4E7E00E0A8AB /* InterfaceController.swift */; };
+		4157F69A1BFA4E7E00E0A8AB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157F6991BFA4E7E00E0A8AB /* ExtensionDelegate.swift */; };
+		4157F69C1BFA4E7E00E0A8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4157F69B1BFA4E7E00E0A8AB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4157F6851BFA4E7E00E0A8AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4157F6691BFA4E7E00E0A8AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4157F6821BFA4E7E00E0A8AB;
+			remoteInfo = "Calculator BMI AW WatchKit App";
+		};
+		4157F6941BFA4E7E00E0A8AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4157F6691BFA4E7E00E0A8AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4157F6911BFA4E7E00E0A8AB;
+			remoteInfo = "Calculator BMI AW WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4157F6A31BFA4E7E00E0A8AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4157F6931BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4157F6A71BFA4E7E00E0A8AB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4157F6841BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4157F6711BFA4E7E00E0A8AB /* Calculator BMI AW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator BMI AW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4157F6741BFA4E7E00E0A8AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4157F6761BFA4E7E00E0A8AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4157F6791BFA4E7E00E0A8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4157F67B1BFA4E7E00E0A8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4157F67E1BFA4E7E00E0A8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4157F6801BFA4E7E00E0A8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4157F6831BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator BMI AW WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4157F6891BFA4E7E00E0A8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4157F68B1BFA4E7E00E0A8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4157F68D1BFA4E7E00E0A8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4157F6921BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Calculator BMI AW WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4157F6971BFA4E7E00E0A8AB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4157F6991BFA4E7E00E0A8AB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4157F69B1BFA4E7E00E0A8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4157F69D1BFA4E7E00E0A8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4157F66E1BFA4E7E00E0A8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4157F68F1BFA4E7E00E0A8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4157F6681BFA4E7E00E0A8AB = {
+			isa = PBXGroup;
+			children = (
+				4157F6731BFA4E7E00E0A8AB /* Calculator BMI AW */,
+				4157F6871BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App */,
+				4157F6961BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension */,
+				4157F6721BFA4E7E00E0A8AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4157F6721BFA4E7E00E0A8AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4157F6711BFA4E7E00E0A8AB /* Calculator BMI AW.app */,
+				4157F6831BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App.app */,
+				4157F6921BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4157F6731BFA4E7E00E0A8AB /* Calculator BMI AW */ = {
+			isa = PBXGroup;
+			children = (
+				4157F6741BFA4E7E00E0A8AB /* AppDelegate.swift */,
+				4157F6761BFA4E7E00E0A8AB /* ViewController.swift */,
+				4157F6781BFA4E7E00E0A8AB /* Main.storyboard */,
+				4157F67B1BFA4E7E00E0A8AB /* Assets.xcassets */,
+				4157F67D1BFA4E7E00E0A8AB /* LaunchScreen.storyboard */,
+				4157F6801BFA4E7E00E0A8AB /* Info.plist */,
+			);
+			path = "Calculator BMI AW";
+			sourceTree = "<group>";
+		};
+		4157F6871BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4157F6881BFA4E7E00E0A8AB /* Interface.storyboard */,
+				4157F68B1BFA4E7E00E0A8AB /* Assets.xcassets */,
+				4157F68D1BFA4E7E00E0A8AB /* Info.plist */,
+			);
+			path = "Calculator BMI AW WatchKit App";
+			sourceTree = "<group>";
+		};
+		4157F6961BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4157F6971BFA4E7E00E0A8AB /* InterfaceController.swift */,
+				4157F6991BFA4E7E00E0A8AB /* ExtensionDelegate.swift */,
+				4157F69B1BFA4E7E00E0A8AB /* Assets.xcassets */,
+				4157F69D1BFA4E7E00E0A8AB /* Info.plist */,
+			);
+			path = "Calculator BMI AW WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4157F6701BFA4E7E00E0A8AB /* Calculator BMI AW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4157F6A81BFA4E7E00E0A8AB /* Build configuration list for PBXNativeTarget "Calculator BMI AW" */;
+			buildPhases = (
+				4157F66D1BFA4E7E00E0A8AB /* Sources */,
+				4157F66E1BFA4E7E00E0A8AB /* Frameworks */,
+				4157F66F1BFA4E7E00E0A8AB /* Resources */,
+				4157F6A71BFA4E7E00E0A8AB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4157F6861BFA4E7E00E0A8AB /* PBXTargetDependency */,
+			);
+			name = "Calculator BMI AW";
+			productName = "Calculator BMI AW";
+			productReference = 4157F6711BFA4E7E00E0A8AB /* Calculator BMI AW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4157F6821BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4157F6A41BFA4E7E00E0A8AB /* Build configuration list for PBXNativeTarget "Calculator BMI AW WatchKit App" */;
+			buildPhases = (
+				4157F6811BFA4E7E00E0A8AB /* Resources */,
+				4157F6A31BFA4E7E00E0A8AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4157F6951BFA4E7E00E0A8AB /* PBXTargetDependency */,
+			);
+			name = "Calculator BMI AW WatchKit App";
+			productName = "Calculator BMI AW WatchKit App";
+			productReference = 4157F6831BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4157F6911BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4157F6A01BFA4E7E00E0A8AB /* Build configuration list for PBXNativeTarget "Calculator BMI AW WatchKit Extension" */;
+			buildPhases = (
+				4157F68E1BFA4E7E00E0A8AB /* Sources */,
+				4157F68F1BFA4E7E00E0A8AB /* Frameworks */,
+				4157F6901BFA4E7E00E0A8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculator BMI AW WatchKit Extension";
+			productName = "Calculator BMI AW WatchKit Extension";
+			productReference = 4157F6921BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4157F6691BFA4E7E00E0A8AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nivardo Ibarra";
+				TargetAttributes = {
+					4157F6701BFA4E7E00E0A8AB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3P6GBLK989;
+					};
+					4157F6821BFA4E7E00E0A8AB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3P6GBLK989;
+					};
+					4157F6911BFA4E7E00E0A8AB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3P6GBLK989;
+					};
+				};
+			};
+			buildConfigurationList = 4157F66C1BFA4E7E00E0A8AB /* Build configuration list for PBXProject "Calculator BMI AW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4157F6681BFA4E7E00E0A8AB;
+			productRefGroup = 4157F6721BFA4E7E00E0A8AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4157F6701BFA4E7E00E0A8AB /* Calculator BMI AW */,
+				4157F6821BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App */,
+				4157F6911BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4157F66F1BFA4E7E00E0A8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4157F67F1BFA4E7E00E0A8AB /* LaunchScreen.storyboard in Resources */,
+				4157F67C1BFA4E7E00E0A8AB /* Assets.xcassets in Resources */,
+				4157F67A1BFA4E7E00E0A8AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4157F6811BFA4E7E00E0A8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4157F68C1BFA4E7E00E0A8AB /* Assets.xcassets in Resources */,
+				4157F68A1BFA4E7E00E0A8AB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4157F6901BFA4E7E00E0A8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4157F69C1BFA4E7E00E0A8AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4157F66D1BFA4E7E00E0A8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4157F6771BFA4E7E00E0A8AB /* ViewController.swift in Sources */,
+				4157F6751BFA4E7E00E0A8AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4157F68E1BFA4E7E00E0A8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4157F69A1BFA4E7E00E0A8AB /* ExtensionDelegate.swift in Sources */,
+				4157F6981BFA4E7E00E0A8AB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4157F6861BFA4E7E00E0A8AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4157F6821BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit App */;
+			targetProxy = 4157F6851BFA4E7E00E0A8AB /* PBXContainerItemProxy */;
+		};
+		4157F6951BFA4E7E00E0A8AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4157F6911BFA4E7E00E0A8AB /* Calculator BMI AW WatchKit Extension */;
+			targetProxy = 4157F6941BFA4E7E00E0A8AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4157F6781BFA4E7E00E0A8AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4157F6791BFA4E7E00E0A8AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4157F67D1BFA4E7E00E0A8AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4157F67E1BFA4E7E00E0A8AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4157F6881BFA4E7E00E0A8AB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4157F6891BFA4E7E00E0A8AB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4157F69E1BFA4E7E00E0A8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4157F69F1BFA4E7E00E0A8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4157F6A11BFA4E7E00E0A8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Calculator BMI AW WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibarra.nivardo.nayeli.lopez.Calculator-BMI-AW.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4157F6A21BFA4E7E00E0A8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Calculator BMI AW WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibarra.nivardo.nayeli.lopez.Calculator-BMI-AW.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4157F6A51BFA4E7E00E0A8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Calculator_BMI_AW_WatchKit_Extension;
+				INFOPLIST_FILE = "Calculator BMI AW WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibarra.nivardo.nayeli.lopez.Calculator-BMI-AW.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4157F6A61BFA4E7E00E0A8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Calculator_BMI_AW_WatchKit_Extension;
+				INFOPLIST_FILE = "Calculator BMI AW WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibarra.nivardo.nayeli.lopez.Calculator-BMI-AW.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4157F6A91BFA4E7E00E0A8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calculator BMI AW/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibarra.nivardo.nayeli.lopez.Calculator-BMI-AW";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4157F6AA1BFA4E7E00E0A8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calculator BMI AW/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibarra.nivardo.nayeli.lopez.Calculator-BMI-AW";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4157F66C1BFA4E7E00E0A8AB /* Build configuration list for PBXProject "Calculator BMI AW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4157F69E1BFA4E7E00E0A8AB /* Debug */,
+				4157F69F1BFA4E7E00E0A8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4157F6A01BFA4E7E00E0A8AB /* Build configuration list for PBXNativeTarget "Calculator BMI AW WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4157F6A11BFA4E7E00E0A8AB /* Debug */,
+				4157F6A21BFA4E7E00E0A8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4157F6A41BFA4E7E00E0A8AB /* Build configuration list for PBXNativeTarget "Calculator BMI AW WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4157F6A51BFA4E7E00E0A8AB /* Debug */,
+				4157F6A61BFA4E7E00E0A8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4157F6A81BFA4E7E00E0A8AB /* Build configuration list for PBXNativeTarget "Calculator BMI AW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4157F6A91BFA4E7E00E0A8AB /* Debug */,
+				4157F6AA1BFA4E7E00E0A8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4157F6691BFA4E7E00E0A8AB /* Project object */;
+}
