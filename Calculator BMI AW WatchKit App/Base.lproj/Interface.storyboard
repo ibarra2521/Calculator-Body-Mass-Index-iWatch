@@ -1,15 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Calculator_BMI_AW_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="h0I-Ot-CoX">
+                            <items>
+                                <label width="69.5" alignment="left" text="Weight:" id="AAB-Tx-WsD"/>
+                                <label width="63.5" alignment="left" text="50" id="NNd-bN-pne"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="50" minimum="50" maximum="200" steps="150" id="8Lm-km-4gf">
+                            <connections>
+                                <action selector="newWeightValue:" destination="AgC-eL-Hgc" id="Hcm-xf-FyL"/>
+                            </connections>
+                        </slider>
+                        <group width="1" alignment="left" id="5M2-ln-hoI">
+                            <items>
+                                <label width="68" alignment="left" text="Height:" id="FYy-Tm-ncI"/>
+                                <label width="62.5" height="19.5" alignment="left" text="0.50" id="DsU-mY-bWt"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="50" minimum="50" maximum="230" steps="180" id="rey-vi-4Lm">
+                            <connections>
+                                <action selector="newHeightValue:" destination="AgC-eL-Hgc" id="Pfa-HP-FJv"/>
+                            </connections>
+                        </slider>
+                        <button width="1" alignment="left" title="Calculate" id="Wkh-I2-gfo">
+                            <connections>
+                                <action selector="calculateBMI" destination="AgC-eL-Hgc" id="4u4-SI-hdh"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="lblHeight" destination="DsU-mY-bWt" id="tJO-Yy-XE8"/>
+                        <outlet property="lblWeight" destination="NNd-bN-pne" id="JZQ-h3-vQ2"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="340" y="393.75"/>
+        </scene>
+        <!--IdentifierBMI-->
+        <scene sceneID="Cil-XZ-84x">
+            <objects>
+                <controller identifier="IdentifierBMI" id="gRn-54-DVq" customClass="ViewDetail" customModule="Calculator_BMI_AW_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Result BMI" id="eAc-Qr-uCL"/>
+                        <label alignment="left" text="0.0" id="XlR-jI-i87"/>
+                    </items>
+                    <connections>
+                        <outlet property="lblBMI" destination="XlR-jI-i87" id="CNv-qN-AT5"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="539" y="388"/>
         </scene>
     </scenes>
 </document>

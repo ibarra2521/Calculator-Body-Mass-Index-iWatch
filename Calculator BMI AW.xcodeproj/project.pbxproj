@@ -19,6 +19,8 @@
 		4157F6981BFA4E7E00E0A8AB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157F6971BFA4E7E00E0A8AB /* InterfaceController.swift */; };
 		4157F69A1BFA4E7E00E0A8AB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157F6991BFA4E7E00E0A8AB /* ExtensionDelegate.swift */; };
 		4157F69C1BFA4E7E00E0A8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4157F69B1BFA4E7E00E0A8AB /* Assets.xcassets */; };
+		4157F6AE1BFA8BD800E0A8AB /* ViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157F6AD1BFA8BD800E0A8AB /* ViewDetail.swift */; };
+		4157F6B01BFA8F4600E0A8AB /* ValorToContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157F6AF1BFA8F4600E0A8AB /* ValorToContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		4157F6991BFA4E7E00E0A8AB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		4157F69B1BFA4E7E00E0A8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4157F69D1BFA4E7E00E0A8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4157F6AD1BFA8BD800E0A8AB /* ViewDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetail.swift; sourceTree = "<group>"; };
+		4157F6AF1BFA8F4600E0A8AB /* ValorToContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValorToContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 			children = (
 				4157F6971BFA4E7E00E0A8AB /* InterfaceController.swift */,
 				4157F6991BFA4E7E00E0A8AB /* ExtensionDelegate.swift */,
+				4157F6AD1BFA8BD800E0A8AB /* ViewDetail.swift */,
+				4157F6AF1BFA8F4600E0A8AB /* ValorToContext.swift */,
 				4157F69B1BFA4E7E00E0A8AB /* Assets.xcassets */,
 				4157F69D1BFA4E7E00E0A8AB /* Info.plist */,
 			);
@@ -299,7 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4157F69A1BFA4E7E00E0A8AB /* ExtensionDelegate.swift in Sources */,
+				4157F6AE1BFA8BD800E0A8AB /* ViewDetail.swift in Sources */,
 				4157F6981BFA4E7E00E0A8AB /* InterfaceController.swift in Sources */,
+				4157F6B01BFA8F4600E0A8AB /* ValorToContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
